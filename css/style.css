@@ -57,7 +57,7 @@ nav ul {
 }
 
 nav ul li {
-  color: var(--text-color);
+  color: #ccc;
   cursor: pointer;
 }
 
