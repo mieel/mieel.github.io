@@ -15,7 +15,7 @@ about.addEventListener('click', () => {
     left: 50,
     mount: aboutContent,
     onfocus: function () {
-      this.setBackground('#00aa00')
+      this.setBackground('#ccc')
     },
     onblur: function () {
       this.setBackground('#777')
@@ -34,7 +34,7 @@ contact.addEventListener('click', () => {
     left: 250,
     mount: contactContent,
     onfocus: function () {
-      this.setBackground('#00aa00')
+      this.setBackground('#ccc')
     },
     onblur: function () {
       this.setBackground('#777')
