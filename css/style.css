@@ -7,15 +7,15 @@
 }
 
 :root {
-  --text-color: #eddc0e;
+  --text-color: #edda0eea;
 }
 
 body {
   font-family: "Roboto Mono", sans-serif;
-  background-color: #1d1f21;
-  color: #ccc;
+  background-color: #212435;
+  color: #acafcc;
   font-size: 15px;
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
 h1 {
@@ -62,8 +62,16 @@ nav ul li {
   cursor: pointer;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #acafcc;
+  color: #070d3a;
+  text-align: center;
+}
 .container {
-  max-width: 1800px;
   margin: auto;
   height: 70vh;
   display: flex;
