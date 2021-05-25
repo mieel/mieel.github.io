@@ -33,7 +33,9 @@ h3 {
   font-size: 15px;
   margin-bottom: 2px;
 }
-
+th {
+  text-align: left;
+}
 ul {
   list-style-type: none;
 }
